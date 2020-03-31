@@ -1,0 +1,11 @@
+type,count
+<<<<<<< HEAD
+Confirmed Cases,1251
+Cured,102
+Deaths,32
+=======
+Indians,826
+Foreigners,47
+Discharged,79
+Deaths,19
+>>>>>>> 553e6234caebe6b57afcb8cb00ead0c64998eaf1

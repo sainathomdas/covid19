@@ -1,0 +1,310 @@
+ * {
+<<<<<<< HEAD
+     font-family: 'Nunito', sans-serif;
+     color: #a09b9d;
+ }
+ 
+ body {
+     background: #303030;
+ }
+ 
+ .view {
+     background: url('../images/bg.jpg') center;
+     min-height: 100vh;
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* Needed to position the navbar */
+     position: relative;
+     font-family: 'Open Sans', sans-serif;
+ }
+ 
+ .space {
+     height: 2rem;
+ }
+ 
+ #navbars {
+     overflow: hidden;
+ }
+ 
+ footer .quicklinks {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ main ul>li {
+     text-transform: capitalize;
+ }
+ 
+ .mynavbarcolor {
+     background: #0288d1;
+ }
+ 
+ .heading {
+     color: white;
+ }
+ 
+ .landing_header {
+     font-size: 7vw;
+     color: white;
+ }
+ 
+ .middlecontainer {
+     background: #3b3b3b;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+     .landing_header {
+         font-size: 14vw;
+     }
+ }
+ 
+ .emergency {
+     width: 50px;
+     height: 50px;
+     position: fixed;
+     border-radius: 50%;
+     background: #FF3547;
+     z-index: 99;
+     text-align: center;
+     line-height: 0;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     cursor: pointer;
+     margin-bottom: 20px;
+     margin-right: 10px;
+ }
+ 
+ #myBtn:hover {
+     background: #d1303d;
+ }
+ 
+ #myBtn {
+     display: block;
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     margin-bottom: 20px;
+     margin-right: 10px;
+     z-index: 99;
+     border: none;
+     outline: none;
+     background-color: #FF3547;
+     color: white;
+     cursor: pointer;
+     padding: 15px;
+     border-radius: 50%;
+     font-size: 18px;
+ }
+ 
+ #loading {
+     position: fixed;
+     left: 0px;
+     top: 0px;
+     width: 100%;
+     height: 100%;
+     z-index: 9999;
+     transition: 1s ease;
+     background: url('../img/coronabig.gif') center no-repeat #fff7d1;
+ }
+ 
+ body,
+ html {
+     width: 100%;
+ }
+ 
+ html,
+ body,
+ #map {
+     height: 100%;
+     width: 100vw;
+ }
+ 
+ .callanchors {
+     color: #4FC3F7;
+     font-weight: bold;
+     letter-spacing: 2px;
+ }
+ 
+ .callanchors:hover {
+     color: #03A9F4;
+     font-weight: bold;
+ }
+ 
+ .counters {
+     background: #0288d1;
+     width: 60px;
+     height: 60px;
+     border-radius: 50%;
+     color: white;
+     position: relative;
+     line-height: 0;
+ }
+ 
+ .counters:after {
+     content: "";
+     display: block;
+ }
+ 
+ .counters span {
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     text-align: center;
+     color: white;
+     font-size: 1.5em;
+     font-weight: bold;
+     letter-spacing: 2px;
+ }
+=======
+        font-family: 'Nunito', sans-serif;
+        color: #a09b9d;
+        
+    }
+    body{
+        background: #303030;
+    }
+    
+        .view {
+
+            background: url('../images/bg.jpg') center;
+            min-height: 110vh;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            /* Needed to position the navbar */
+            position: relative;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .space {
+            height: 2rem;
+        }
+
+        #navbars {
+            overflow: hidden;
+
+        }
+
+        footer .quicklinks {
+            text-decoration: none;
+            color: white;
+        }
+        main ul>li{
+            text-transform : capitalize;
+        }
+        .mynavbarcolor{
+            background: #0288d1;
+        }
+        .heading {
+            color: white;
+        }
+        .landing_header{
+            font-size:7vw; color:white;
+        }
+        .middlecontainer{
+            background:#3b3b3b;
+        }
+        @media only screen and (max-width: 600px) {
+            .landing_header{
+                font-size:14vw;
+            }
+        }
+       
+        .emergency{
+            width : 50px;
+            height : 50px;
+            position: fixed;
+            border-radius:50%;
+            background : #FF3547;
+            z-index : 99;
+            text-align:center;
+            line-height:0;
+            position:absolute;
+            bottom:0;
+            right:0;
+            cursor: pointer;
+            margin-bottom:20px;
+            margin-right:10px;
+
+        }
+        #myBtn:hover{
+            background : #d1303d;
+        }
+        #myBtn {
+            display: block; 
+            position: fixed; 
+            bottom: 0; 
+            right: 0;
+            margin-bottom:20px;
+            margin-right:10px;
+            z-index: 99; 
+            border: none; 
+            outline: none; 
+            background-color: #FF3547; 
+            color: white; 
+            cursor: pointer; 
+            padding: 15px; 
+            border-radius: 50%; 
+            font-size: 18px; 
+            }
+            #loading {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            transition: 1s ease;
+            background: url('../img/coronabig.gif') center no-repeat #fff7d1;
+        }
+
+        body, html{
+            width: 100%;
+        }
+        html, body, #map {
+    height: 100%;
+    width: 100vw;
+}
+
+.callanchors{
+    color: #4FC3F7;
+    font-weight: bold;
+    letter-spacing:2px;
+}
+.callanchors:hover{
+    color: #03A9F4;
+    font-weight: bold;
+}
+
+.counters{
+    background: #0288d1;
+    width : 60px;
+    height : 60px;
+    border-radius : 50%;
+    color: white;
+    position : relative;
+    line-height:0;
+}
+.counters:after {
+        content: "";
+        display: block;
+        
+      }
+      .counters span {
+        position: absolute;
+        top:50%;
+        width: 100%;
+        text-align: center;
+        color:white;
+        font-size: 1.5em;
+        font-weight:bold;
+        letter-spacing:2px;
+        
+      }
+>>>>>>> 553e6234caebe6b57afcb8cb00ead0c64998eaf1

@@ -1,0 +1,61 @@
+<<<<<<< HEAD
+State,Confirmed,Recovered,Deaths
+Andhra Pradesh,23,1,0
+Himachal Pradesh,3,0,1
+Jammu and Kashmir,48,2,2
+Karnataka,83,5,3
+Kerala,202,19,1
+Ladakh,13,3,0
+Madhya Pradesh,47,0,3
+Maharashtra,198,25,8
+Manipur,1,0,0
+Mizoram,1,0,0
+Odisha,3,0,0
+Andaman and Nicobar Islands,9,0,0
+Puducherry,1,0,0
+Punjab,38,1,1
+Rajasthan,59,3,0
+Tamil Nadu,67,4,1
+Telengana,71,1,1
+Uttarakhand,7,2,0
+Uttar Pradesh,82,11,0
+West Bengal,22,0,2
+Bihar,15,0,1
+Chandigarh,8,0,0
+Chhattisgarh,7,0,0
+Delhi,87,6,2
+Goa,5,0,0
+Gujarat,69,1,6
+Haryana,36,18,0
+Total,1251,102,32
+=======
+S.No,State,Indians,Immigrants,Recovered,Deaths
+1,Andaman and Nicobar Islands,2,0,0,0
+2,Andhra Pradesh,14,0,1,0
+3,Bihar,9,0,0,1
+4,Chandigarh,7,0,0,0
+5,Chhattisgarh,6,0,0,0
+6,Delhi,38,1,6,1
+7,Goa,3,0,0,0
+8,Gujarat,44,1,0,3
+9,Haryana,19,14,11,0
+10,Himachal Pradesh,3,0,0,1
+11,Jammu and Kashmir,18,0,1,1
+12,Karnataka,55,0,3,2
+13,Kerala,165,8,11,0
+14,Ladakh,13,0,3,0
+15,Madhya Pradesh,30,0,0,2
+16,Maharashtra,177,3,25,5
+17,Manipur,1,0,0,0
+18,Mizoram,1,0,0,0
+19,Odisha,3,0,0,0
+20,Puducherry,1,0,0,0
+21,Punjab,38,0,1,1
+22,Rajasthan,46,2,3,0
+23,Tamil Nadu,32,6,2,1
+24,Telengana,38,10,1,0
+25,Uttarakhand,4,1,0,0
+26,Uttar Pradesh,44,1,11,0
+27,West Bengal,15,0,0,1
+Total number of confirmed cases in India,Total,826,47,79,19
+>>>>>>> 553e6234caebe6b57afcb8cb00ead0c64998eaf1
